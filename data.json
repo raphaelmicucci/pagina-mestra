@@ -1,0 +1,216 @@
+{
+  "student": {
+    "name": "Raphael Micucci Bomfim",
+    "photo": "assets/images/perfil.jpeg",
+    "github": "https://github.com/raphaelmicucci",
+    "email": "raphaelmicucci@gmail.com",
+    "phone": "(11) 98787-1255",
+    "bio": "Desenvolvedor em formação especializado em Developer Advocacy, qualidade de software e IA generativa. Apaixonado por tecnologia e pronto para construir uma carreira sólida como desenvolvedor backend.",
+    "colors": {
+      "primary": "#0f172a",
+      "secondary": "#3b82f6",
+      "accent": "#10b981"
+    }
+  },
+  "course": {
+    "college": "FATEC Itaquera - Professor Miguel Reale",
+    "name": "Desenvolvimento de Sistemas Multiplataforma",
+    "startDate": "2023-07",
+    "expectedEndDate": "2026-12",
+    "currentSemester": 6
+  },
+  "workExperience": [
+    {
+      "id": 1,
+      "company": "F1RST Digital Services",
+      "position": "Estagiário em Developer Advocacy",
+      "startDate": "2025-12",
+      "endDate": "Atual",
+      "description": "Developer Advocacy com foco em Qualidade de Software, Automação e IA generativa para desenvolvedores. Trabalhando em Developer Experience (DX) e IA generativa para a plataforma web.",
+      "isCurrent": true
+    },
+    {
+      "id": 2,
+      "company": "The Mosaic Company - Brasil",
+      "position": "Estagiário em Observabilidade",
+      "startDate": "2025-08",
+      "endDate": "2025-12",
+      "description": "Trabalho com monitoramento e observabilidade de sistemas. Experiência prática com DevOps Foundations em Monitoring and Observability.",
+      "isCurrent": false
+    },
+    {
+      "id": 3,
+      "company": "IBGE",
+      "position": "Agente de Pesquisas e Mapeamento",
+      "startDate": "2022-02",
+      "endDate": "2025-01",
+      "description": "Coleta de dados para pesquisas estatísticas em estabelecimentos. Transmissão eletrônica de dados, elaboração de relatórios e análise de informações.",
+      "isCurrent": false
+    },
+    {
+      "id": 4,
+      "company": "NTUX",
+      "position": "Analista de Service Desk",
+      "startDate": "2021-09",
+      "endDate": "2022-01",
+      "description": "Gerenciamento de chamados com GLPI, coleta de logs para diagnóstico, monitoramento de backups (DataProtector, Backup Exec, Veeam) e procedimentos operacionais.",
+      "isCurrent": false
+    },
+    {
+      "id": 5,
+      "company": "Portal Telemedicina",
+      "position": "Assistente de Tecnologia",
+      "startDate": "2018-07",
+      "endDate": "2020-01",
+      "description": "Suporte ao desenvolvimento da plataforma de laudos, gestão de cadastros de clientes, manutenção técnica de layouts, suporte ao cliente e análise de feedback.",
+      "isCurrent": false
+    }
+  ],
+  "extensionCourses": [
+    {
+      "id": 1,
+      "name": "DevOps Foundations: Monitoring and Observability",
+      "institution": "Linux Academy / Cloud Academy",
+      "location": "Online",
+      "hours": 20,
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-30",
+      "certificate": ""
+    },
+    {
+      "id": 2,
+      "name": "AWS Academy Graduate - Machine Learning Foundations",
+      "institution": "AWS Academy",
+      "location": "Online",
+      "hours": 40,
+      "startDate": "2024-09-01",
+      "endDate": "2025-01-31",
+      "certificate": "https://www.credly.com"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript: programando na linguagem da web",
+      "institution": "LinkedIn Learning / Coursera",
+      "location": "Online",
+      "hours": 30,
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31",
+      "certificate": ""
+    },
+    {
+      "id": 4,
+      "name": "Python: entendendo a Orientação a Objetos",
+      "institution": "Alura / Udemy",
+      "location": "Online",
+      "hours": 25,
+      "startDate": "2024-04-01",
+      "endDate": "2024-06-15",
+      "certificate": ""
+    },
+    {
+      "id": 5,
+      "name": "MOOC - Programação | Object-Oriented Programming with Java",
+      "institution": "Universidade de Helsinki",
+      "location": "Online",
+      "hours": 60,
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-31",
+      "certificate": ""
+    }
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "name": "Português",
+      "level": "Nativo"
+    },
+    {
+      "id": 2,
+      "name": "Inglês",
+      "level": "Intermediário"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "FATECO - Educação Ambiental para Escolas e Instituições de Ensino",
+      "description": "Site institucional para ONG com foco em educação ambiental, mobilização de instituições de ensino e adoção de práticas sustentáveis",
+      "semester": 1,
+      "technologies": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "githubLink": "https://github.com/raphaelmicucci",
+      "liveLink": "",
+      "images": [
+        "assets/images/fateco.png"
+      ],
+      "participation": "Desenvolvimento do site institucional FATECO em grupo. Participei da criação do Canvas/Modelo de negócio, design e desenvolvimento das interfaces responsivas para desktop e mobile. Implementei as seções do site incluindo Institucional, Nosso Trabalho, Selo Sustentável, Blog, Apoio e Contato. Contribuí para o planejamento de qualidade com testes unitário, sistema e aceitação.",
+      "myRoles": ["Frontend Developer", "Web Designer"],
+      "myTechnologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Mobile-First", "Web Design", "User Interface"]
+    },
+    {
+      "id": 2,
+      "title": "Sistema de Reservas de Salas e Laboratórios da FATEC Itaquera (Back-end)",
+      "description": "API REST para gerenciamento de reservas de salas e laboratórios com autenticação JWT, controle de usuários e administração de equipamentos",
+      "semester": 2,
+      "technologies": ["PHP", "MySQL", "REST API", "JWT", "MVC"],
+      "githubLink": "https://github.com/raphaelmicucci",
+      "liveLink": "",
+      "images": [
+        "assets/images/reserva-salas.png"
+      ],
+      "participation": "Desenvolvedor Backend responsável pela implementação de APIs REST para Sistema de Reservas. Trabalhei na arquitetura MVC, desenvolvimento de controladores, modelos e routers. Implementei autenticação JWT, autorização baseada em perfis de usuário, hashing de senhas com bcrypt e conexão com banco de dados MySQL via PDO. Participei do desenvolvimento das rotas de Salas, Equipamentos, Reservas e Usuários.",
+      "myRoles": ["Backend Developer", "API Developer"],
+      "myTechnologies": ["PHP", "MySQL", "REST API", "JWT", "PDO", "MVC Pattern", "Composer", "Postman", "Bcrypt Hashing", "Git"]
+    },
+    {
+      "id": 3,
+      "title": "SRP - Sistema de Reservas para Paróquias",
+      "description": "Sistema web para gestão de viagens paroquiais com controle de ônibus, reservas e acompanhamento",
+      "semester": 3,
+      "technologies": ["React", "JavaScript", "Spring Boot", "MongoDB"],
+      "githubLink": "https://github.com/raphaelmicucci",
+      "liveLink": "",
+      "images": [
+        "assets/images/srp.jpeg"
+      ],
+      "participation": "Design das telas, desenvolvimento front-end com React e atuação como Scrum Master. Responsável pela integração com a API backend desenvolvida em Spring Boot.",
+      "myRoles": ["Frontend Developer", "Scrum Master"],
+      "myTechnologies": ["React", "JavaScript", "REST API", "MongoDB", "Git"]
+    },
+    {
+      "id": 4,
+      "title": "Loja de Brinquedos",
+      "description": "E-commerce de brinquedos desenvolvido como projeto de Desenvolvimento Web III com funcionalidades completas de catálogo e compras",
+      "semester": 4,
+      "technologies": ["Java", "HTML", "CSS", "JavaScript"],
+      "githubLink": "https://github.com/raphaelmicucci/loja-brinquedos",
+      "liveLink": "",
+      "images": [
+        "assets/images/toystory.png"
+      ],
+      "participation": "Desenvolvimento full-stack da loja de brinquedos. Trabalhei com Java no backend, HTML/CSS para estrutura e estilização, e JavaScript para interatividade no frontend. Implementei funcionalidades de catálogo de produtos, carrinho de compras e interface responsiva.",
+      "myRoles": ["Full Stack Developer", "Frontend Developer"],
+      "myTechnologies": ["Java", "HTML5", "CSS3", "JavaScript", "Responsive Design", "Git"]
+    },
+    {
+      "id": 5,
+      "title": "TAFE - App Mobile",
+      "description": "App mobile para registro e monitoramento de acidentes na construção civil, promovendo segurança e transparência",
+      "semester": 5,
+      "technologies": ["React Native", "Expo", "JavaScript"],
+      "githubLink": "https://github.com/raphaelmicucci",
+      "liveLink": "",
+      "images": [
+        "assets/images/tafe.jpeg"
+      ],
+      "participation": "Desenvolvimento de telas e componentes com React Native e Expo. Implementei a arquitetura de navegação e integração de dados do aplicativo mobile.",
+      "myRoles": ["Mobile Developer"],
+      "myTechnologies": ["React Native", "Expo", "JavaScript", "Mobile Development"]
+    }
+  ],
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/raphaelmicucci",
+    "instagram": "",
+    "twitter": "",
+    "portfolio": ""
+  }
+}
